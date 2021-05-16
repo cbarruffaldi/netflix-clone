@@ -2,8 +2,7 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { SelectProfileContainer } from './profiles';
 import { FirebaseContext } from '../context/firebase';
-import { Loading } from '../components';
-import { Header } from '../components/accordion/styles/accordion';
+import { Loading, Header } from '../components';
 
 export function BrowseContainer({ slides }) {
   const [profile, setProfile] = useState({});
