@@ -7,7 +7,7 @@ import { useAuthListener } from './hooks';
 import * as ROUTES from './constants/routes';
 
 export default function App() {
-  const user = useAuthListener();
+  const { user } = useAuthListener();
   return (
     <Router>
       <Switch>
