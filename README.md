@@ -1,3 +1,9 @@
+# Netflix Clone
+
+Following tutorial on: https://www.youtube.com/watch?v=x_EEwGe-a9o&t=16590s
+
+The stack uses: React (custom hooks, context, portals), Firebase (Firestore/auth), Compound and Styled components
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
